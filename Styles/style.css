@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+*,*::before
+,*::after
+{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+main {
+    padding: 2rem 2rem 1rem 2rem;
+    background: hsl(225, 100%, 94%);
+}
+
+.Oder-sum {
+    box-shadow: 0rem 1rem 0rem 0rem white;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.icon-img {
+    height: 8rem;
+    width: 19.44rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.Annual_plan {
+    display: flex;
+    border-radius: 1rem ;
+    background-color: hsl(225, 100%, 98%);
+    margin: 1rem;
+    padding: 0.1rem;
+}
+
+.Plan {
+    padding-left: 1rem;
+}
+
+.annual_img {
+    height: 3.5rem;
+    width: 2.9rem;
+    padding-top: 1rem;
+    padding-left: 0.4rem;
+}
+
+.change {
+    padding-left: 3rem;
+    padding-top: 1.5rem;
+}
+
+.change li {
+    list-style: none;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+button {
+    color: white;
+    border: 0.2rem;
+    border-radius: 0.5rem ;
+    width: 14.5rem;
+    height: 2.3rem;
+    margin: 0rem 3rem 0rem 2.5rem;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0rem 1rem 1rem 0rem hsl(225, 100%, 94%);
+}
+
+h3 {
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+h4 {
+    color: hsl(223, 47%, 23%);
+}
+
+h5 {
+    text-align: center;
+    padding-bottom: 0.2rem;
+    color: hsl(224, 23%, 55%);
+}
+
+p{
+    text-align: center;
+    padding: 0rem 2rem 0rem 2rem;
+    color: hsl(224, 23%, 55%);
+}
+
+span {
+    color: hsl(224, 23%, 55%);
+}
