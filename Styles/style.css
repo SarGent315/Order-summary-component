@@ -98,19 +98,8 @@ span {
     color: hsl(224, 23%, 55%);
 }
 
-@media screen and (max-width: 414px) {
-    .icon-img {
-        width: 21.9rem;
-        background-size: contain;
-    }
-
-    button {
-        width: 17rem;
-    }
-}
-
 /* For Desktop */
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 1440px) {
     * {
         box-sizing: border-box;
         padding: 0;
