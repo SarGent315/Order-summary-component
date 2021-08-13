@@ -129,6 +129,7 @@ span {
     }
 
     .icon-img {
+        width: 19.44rem;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -148,6 +149,7 @@ span {
     }
 
     button {
+        width: 14.2rem;
         cursor: pointer;
     }
 
