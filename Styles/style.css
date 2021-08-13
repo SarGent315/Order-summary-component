@@ -100,6 +100,7 @@ span {
 
 @media screen and (max-width: 320px){
     .icon-img {
+        padding: 0;
         width: 16rem;
         background-size: contain;
         background-repeat: no-repeat;
