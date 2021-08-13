@@ -26,8 +26,8 @@ main {
 
 .icon-img {
     height: 8rem;
-    width: 19.41rem;;
-    background-size: contain;
+    width: 19.41rem;
+    background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem 1rem 0rem 0rem;
 }
@@ -98,7 +98,7 @@ span {
     color: hsl(224, 23%, 55%);
 }
 
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
     .icon-img {
         width: 16rem;
         background-size: contain;
@@ -113,28 +113,6 @@ span {
         width: 11rem;
         margin-top: 0.9rem;
     } 
-}
-
-@media screen and (min-width: 357px) {
-    .icon-img {
-        width: 18.4rem;
-    }
-
-    button {
-        width: 13rem;
-    }
-}
-
-@media screen and (min-width: 425px) {
-    .icon-img {
-        width: 22.54rem;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-    button {
-        width: 17.2rem
-    }
 }
 
 /* For Desktop */
