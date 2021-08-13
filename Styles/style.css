@@ -26,7 +26,7 @@ main {
 
 .icon-img {
     height: 8rem;
-    width: 18.3rem;
+    width: 18.33rem;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem 1rem 0rem 0rem;
@@ -52,8 +52,8 @@ main {
 }
 
 .change {
-    padding-left: 3rem;
-    padding-top: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 1.6rem;
 }
 
 .change li {
@@ -129,15 +129,15 @@ span {
     }
 
     .icon-img {
-        width: 19.44rem;
+        width: 19.48rem;
         background-size: cover;
         background-repeat: no-repeat;
     }
 
     .annual_img {
-        padding-bottom: 1rem;
-        width: 2.5rem;
-        min-height: 0.5rem;
+        padding-bottom: 0.9rem;
+        width: 2rem;
+        min-height: 3rem;
     }
 
     .Plan {
