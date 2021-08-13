@@ -26,7 +26,7 @@ main {
 
 .icon-img {
     height: 8rem;
-    width: 19.44rem;;
+    width: 19.41rem;;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 1rem 1rem 0rem 0rem;
@@ -101,6 +101,8 @@ span {
 @media screen and (max-width: 320px){
     .icon-img {
         width: 16rem;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .Annual_plan {
@@ -112,7 +114,17 @@ span {
         margin-top: 0.9rem;
     } 
 }
+@media screen and (max-width: 357px) {
+    .icon-img {
+        width: 18.40rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
 
+    button {
+        width: 13.3rem;
+    }
+}
 @media screen and (min-width: 414px) {
     .icon-img {
         width: 21.9rem;
