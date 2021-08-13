@@ -98,44 +98,15 @@ span {
     color: hsl(224, 23%, 55%);
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 425px) {
     .icon-img {
-        width: 16rem;
+        width: 22.54rem;
         background-size: contain;
         background-repeat: no-repeat;
     }
-
-    .Annual_plan {
-        margin: 0;
-    }
-
+    
     button {
-        width: 11rem;
-        margin-top: 0.9rem;
-    } 
-}
-@media screen and (max-width: 357px) {
-    .icon-img {
-        width: 18.40rem;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-
-    button {
-        width: 13.3rem;
-    }
-}
-@media screen and (min-width: 414px) {
-    .icon-img {
-        width: 21.9rem;
-    }
-
-    .Annual_plan {
-        margin: 1rem;
-    }
-
-    button {
-        width: 16rem;
+        width: 17.2rem
     }
 }
 
